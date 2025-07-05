@@ -1,17 +1,17 @@
 
-# 🏠 Home Credit Default Risk - Kaggle Challenge
+# Home Credit Default Risk - Kaggle Challenge
 
 This project is a solution to the [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk) competition hosted on Kaggle. The goal is to predict the probability that an applicant will default on a loan based on a variety of financial, demographic, and behavioral features.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Home Credit seeks to expand credit opportunities to unbanked individuals. Accurate credit scoring helps them responsibly provide loans while managing risk. This project builds a predictive model that ranks applicants based on their default likelihood.
 
 ---
 
-## 📂 Dataset Used
+## Dataset Used
 
 The dataset contains both a main application file and multiple auxiliary tables:
 
@@ -24,7 +24,7 @@ The dataset contains both a main application file and multiple auxiliary tables:
 
 ---
 
-## 🔧 Preprocessing & Feature Engineering
+## Preprocessing & Feature Engineering
 
 - Merged and aggregated auxiliary tables into the main training set.
 - Dropped columns with more than **60% missing values**.
@@ -42,7 +42,7 @@ Final dataset contained **168 features** after preprocessing.
 
 ---
 
-## ⚙️ Modeling Approach
+## Modeling Approach
 
 - Models used:
   - Logistic Regression (baseline)
@@ -54,7 +54,7 @@ Final dataset contained **168 features** after preprocessing.
 
 ---
 
-## 📈 Results
+## Results
 
 | Model                    | Public AUC | Private AUC |
 |-------------------------|------------|-------------|
@@ -64,12 +64,6 @@ Final dataset contained **168 features** after preprocessing.
 
 ---
 
-## 📊 SHAP Explainability
-
-- SHAP (SHapley Additive exPlanations) used to interpret model predictions.
-- Highlighted top contributing features towards model decisions.
-
----
 
 ## 📽️ Presentation Slides
 
@@ -77,7 +71,7 @@ You can find a detailed summary in the [📊 PowerPoint presentation](Home_Credi
 
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 
 ```
 ├── data/                        # Raw and processed datasets
@@ -89,7 +83,7 @@ You can find a detailed summary in the [📊 PowerPoint presentation](Home_Credi
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone the repo:
 ```bash
@@ -106,14 +100,14 @@ pip install -r requirements.txt
 
 ---
 
-## 🙋‍♂️ Author
+## Author
 
 **Vignesh Ramaswamy Balasundaram**  
 [LinkedIn](https://www.linkedin.com/in/vigneshrb250/) | [GitHub](https://github.com/vigneshrb250)
 
 ---
 
-## 📌 Final Notes
+## Final Notes
 
 - This solution focuses on clarity, interpretability, and strong validation practices.
 - Additional performance could be achieved by ensembling or using external data.
