@@ -103,7 +103,7 @@ pip install -r requirements.txt
 ## Author
 
 **Vignesh Ramaswamy Balasundaram**  
-[LinkedIn](https://www.linkedin.com/in/vigneshrb250/) | [GitHub](https://github.com/vigneshrb250)
+[LinkedIn](https://www.linkedin.com/in/vigneshrb/) | [GitHub](https://github.com/vigneshrb250)
 
 ---
 
