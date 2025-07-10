@@ -65,7 +65,7 @@ Final dataset contained **168 features** after preprocessing.
 ---
 
 
-## 📽️ Presentation Slides
+## Presentation Slides
 
 You can find a detailed summary in the [📊 PowerPoint presentation](https://github.com/vigneshrb250/Home-Credit-Default-Analysis/blob/main/Home%20Credit%20Default%20Risk%20Analysis.pptx).
 
